@@ -3,6 +3,8 @@ import App, { Container } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 import theme from '../config';
 
+import '../style.css';
+
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
